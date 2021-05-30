@@ -1,0 +1,1 @@
+If you want to auomate the test process uses this source folder instead of the one used and remove the comment of the file paramater in the header file of the direct map

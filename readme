@@ -1,0 +1,22 @@
+
+--> to make the pinatrace file
+
++ write the following commands:
+
+cd ~/pin-3.11-97998-g7ecce2dac-gcc-linux
+
+./pin -t ./source/tools/ManualExamples/obj-intel64/pinatrace.so -- ~/work/cache_sim/Test_Files/{folder name}/{outfile name}
+
+
+
+--> to make the pinatrace file
+
+make new directory called "work" and put the skeleton in it
+
++ write the following commands:
+
+make
+
+cd ~/work/cache_sim
+
+./bin/cache_sim wb ~/pin-3.11-97998-g7ecce2dac-gcc-linux/pinatrace.out 1024 2048 2 4 8 16
